@@ -19,4 +19,5 @@ jobs:
           PLUGIN_AUTH_TYPE: "https"
           PLUGIN_USERNAME: "cnb"
           PLUGIN_PASSWORD: ${{ secrets.GIT_PASSWORD }}
-          PLUGIN_FORCE: "true"
+          PLUGIN_SYNC_MODE: "rebase"
+          PLUGIN_BRANCH: "main"
